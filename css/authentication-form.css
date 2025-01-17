@@ -1,7 +1,7 @@
 /* 👇👇👇 SCROLL DOWN TO THE "ADD YOUR FORM STYLES BENEATH" comment (line 25) 👇👇👇*/
 
 * {
-  padding: 0;
+  padding: 10px;
   margin: 0;
   box-sizing: border-box;
 }
@@ -12,6 +12,8 @@ body {
 
 .content {
   padding: 30px;
+  display: flex;
+  justify-content: space-between;
 }
 
 h2 {
@@ -37,6 +39,9 @@ form {
 #sign-in,
 #sign-up {
   width: 100%;
+  display:flex;
+  flex-direction: column;
+  gap:30px;
 }
 
 a {
@@ -46,6 +51,8 @@ a {
 
 label {
   font-weight: bold;
+  display: flex;
+  gap:30px;
 }
 
 input {
