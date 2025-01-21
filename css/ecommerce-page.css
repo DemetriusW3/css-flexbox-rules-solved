@@ -132,7 +132,9 @@ section {
 }
 
 .view-options {
-  display: flex; gap: 10px; 
+  display: flex; 
+  flex-wrap: wrap;
+  gap: 10px; 
 }
 
 i.fa-th-list {
@@ -154,6 +156,10 @@ i.fa-th-list {
   height: 40px;
   border: 1px solid #8d8ba5;
   cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
 }
 
 .products {
@@ -244,6 +250,8 @@ display: flex; flex-wrap: wrap; gap: 30px;
   padding-top: 30px;
   border-top: 1px solid #8d8ba5;
   display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 /* LINE VIEW STYLES */
@@ -281,7 +289,7 @@ display: flex; flex-wrap: wrap; gap: 30px;
 
 .lines .product-action {
   display: flex;
-  margin-left: 0px;
+  gap: 30px;
 }
 
 /* LINES-ACTION VIEW */
